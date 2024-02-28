@@ -40,7 +40,14 @@ namespace ClassBoardModel
         public void MarkNextLegalMoves(Cell currentCell, string chessPiece)
         {
             // step 1 - clear all previous legal moves
-
+            for (int i = 0; i < Size; i++)
+            {
+                for (int j = 0; j < Size; j++)
+                {
+                    theGrid[i, j].LegalNextMove = false;
+                    theGrid[i, j].CurrentlyOccupied = false;
+                }
+            }
 
             // step 2 - find all legal moves and mark the cells as "legal"
         }
