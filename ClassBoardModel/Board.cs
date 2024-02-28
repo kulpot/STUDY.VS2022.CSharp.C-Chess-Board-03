@@ -50,6 +50,27 @@ namespace ClassBoardModel
             }
 
             // step 2 - find all legal moves and mark the cells as "legal"
+
+            switch (chessPiece)
+            {
+                case "Knight":
+                    break;
+
+                case "King":
+                    break;
+
+                case "Rook":
+                    break;
+
+                case "Bishop":
+                    break;
+
+                case "Queen":
+                    break;
+
+                default:
+                    break;
+            }
         }
         //--------END---------- C# Chess Board 03 next legal moves -------------------------------------------------
 
