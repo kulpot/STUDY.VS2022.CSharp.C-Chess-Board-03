@@ -35,5 +35,13 @@ namespace ClassBoardModel
         }
         //---------END--------- C# Chess Board 02 board cell classes -------------------------------
 
+
+        //-------START----------- C# Chess Board 03 next legal moves -------------------------------------------------
+        public void MarkNextLegalMoves(Cell currentCell, string chessPiece)
+        {
+
+        }
+        //--------END---------- C# Chess Board 03 next legal moves -------------------------------------------------
+
     }
 }
