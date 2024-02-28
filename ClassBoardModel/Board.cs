@@ -54,6 +54,7 @@ namespace ClassBoardModel
             switch (chessPiece)
             {
                 case "Knight":
+                    theGrid[currentCell.RowNumber, currentCell.ColumnNumber].LegalNextMove = true;
                     break;
 
                 case "King":
