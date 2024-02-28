@@ -39,7 +39,10 @@ namespace ClassBoardModel
         //-------START----------- C# Chess Board 03 next legal moves -------------------------------------------------
         public void MarkNextLegalMoves(Cell currentCell, string chessPiece)
         {
+            // step 1 - clear all previous legal moves
 
+
+            // step 2 - find all legal moves and mark the cells as "legal"
         }
         //--------END---------- C# Chess Board 03 next legal moves -------------------------------------------------
 
